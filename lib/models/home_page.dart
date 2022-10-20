@@ -191,12 +191,6 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Text("7-сентябрь, 2020-жыл", style: blogDateStyle),
-              RaisedButton(
-                  color: Colors.white,
-                  child: Text("Кененирээк окуу", style: smallButtonTextStyle),
-                  onPressed: () {},
-                  shape: RoundedRectangleBorder(
-                      borderRadius: new BorderRadius.circular(20)))
             ],
           )
         ],
